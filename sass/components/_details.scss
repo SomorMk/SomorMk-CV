@@ -1,0 +1,182 @@
+@import "../variables/variable";
+@import "../mixins/mixins";
+
+/*=================Details====================*/
+#details{
+    .details-row{
+        display: flex;
+        flex-wrap: wrap;
+        .details_left{
+            background: #c5c7c8;
+            padding: 30px 10px 20px 20px;
+            .details_title{
+                @include fs($c1,25px,200,$kanit);
+                letter-spacing: 2px;
+                padding-bottom: 5px;
+                border-bottom: 2px solid $c1;
+                margin-top: 20px;
+            }
+        }
+        .details_right{
+            padding: 30px 10px 20px 20px;
+            .details_info{
+                @include fs(#000,20px,400,$kanit);
+                word-spacing: 1px;
+                line-height: 34px;
+                padding-left: 30px;
+                padding-bottom: 30px;
+                border-bottom: 2px solid #000;
+            }
+        }
+    }
+    .academic_qualication{
+        .qualification_item{
+            position: relative;
+            margin-bottom: 40px;
+            &:first-child{
+                margin-top: 30px;
+            }
+            &:last-child{
+                border-bottom: 2px solid #000;
+                padding-bottom: 30px;
+                margin-bottom: 50px;
+            }
+            .floating_tag{
+                position: absolute;
+                top: 50%;
+                left: 50px;
+                transform: translateY(-50%);
+                padding: 0 15px;
+                background: $c1;
+                @include fs(#fff,20px,500,$kanit);
+            }
+            padding-left: 200px;
+            padding-right: 100px;
+            .qualification_item_head{
+                @include fs(#000,24px,500,$kanit);
+                margin-bottom: 10px;
+                text-decoration: underline;
+            }
+            .qualification_item_left{
+                li{
+                    @include fs(#000,18px,300,$kanit);
+                    position: relative;
+                    span{
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+            .qualification_item_right{
+                li{
+                    padding-left: 30px;
+                    text-align: left;
+                    @include fs(#000,18px,300,$kanit);
+                }
+            }
+        }
+    }
+    .special_qualification{
+        .qualifications{
+            border-bottom: 2px solid #000;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            li{
+                @include fs(#000,20px,400,$kanit);
+                line-height: 30px;
+                i{
+                    margin-right: 20px;
+                    font-size: 15px;
+                    opacity: .7;
+                }
+            }
+        }
+        .languages{
+            text-align: left;
+            border-bottom: 2px solid #000;
+            height: 100%;
+            h6{
+                @include fs(#000,24px,400,$kanit);
+                text-align: left;
+                margin-left: 20px;
+                margin-bottom: 15px;
+            }
+            li{
+                i{
+                    margin-right: 10px;
+                    font-size: 10px;
+                    opacity: .7;
+                }
+                @include fs(#000,18px,300,$kanit);
+                line-height: 30px;
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .training_courses{
+        padding-top: 40px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        border-bottom: 2px solid #000;
+        ul{
+            li{
+                i{
+                    margin-right: 10px;
+                    font-size: 10px;
+                    opacity: .7;
+                }
+                @include fs(#000,20px,300,$kanit);
+                line-height: 30px;
+                span{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .personal_details_row{
+        border-bottom: 2px solid #000;
+        padding-bottom: 50px;
+        .personal_details_left,
+        .personal_details_right{
+            li{
+                @include fs(#000,25px,300,$kanit);
+                line-height: 40px;
+                position: relative;
+                span{
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+        .personal_details_left{
+            padding-left: 50px;
+        }
+    }
+    .link_row{
+        padding-bottom: 50px;
+        .link_left,
+        .link_right{
+            li{
+                @include fs(#000,25px,400,$kanit);
+                line-height: 40px;
+                position: relative;
+                span{
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+        .link_left{
+            padding-left: 50px;
+        }
+    }
+}
+/*=================Details====================*/

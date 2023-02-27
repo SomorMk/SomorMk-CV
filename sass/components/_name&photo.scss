@@ -1,0 +1,48 @@
+@import "../variables/variable";
+@import "../mixins/mixins";
+
+/*=================Name and Photo====================*/
+#title {
+    .name_and_photo {
+        padding: 50px 0;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .name_part {
+                text-align: left;
+
+                .name {
+                    @include fs(rgb(106, 66, 80), 36px, 600, $mon);
+                    text-transform: capitalize;
+                }
+
+                .description {
+                    @include fs(#000, 20px, 300, $mon);
+                    text-transform: capitalize;
+                }
+            }
+
+            .photo {
+                text-align: right;
+
+                img {
+                    width: 100%;
+                    max-width: 130px;
+                    background: #fff;
+                    border: 10px solid rgb(106, 66, 80);
+                    border-radius: 0 10px 0 10px;
+                    text-align: right;
+                }
+            }
+        }
+
+    }
+}
+
+/*=================Name and Photo====================*/

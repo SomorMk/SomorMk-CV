@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+/*=========================================================
+                    Common css end
+=========================================================*/
+/*=================Name and Photo====================*/
+#title .name_and_photo {
+  padding: 50px 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#title .name_and_photo .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#title .name_and_photo .row .name_part {
+  text-align: left;
+}
+#title .name_and_photo .row .name_part .name {
+  color: rgb(106, 66, 80);
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+#title .name_and_photo .row .name_part .description {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+#title .name_and_photo .row .photo {
+  text-align: right;
+}
+#title .name_and_photo .row .photo img {
+  width: 100%;
+  max-width: 130px;
+  background: #fff;
+  border: 10px solid rgb(106, 66, 80);
+  border-radius: 0 10px 0 10px;
+  text-align: right;
+}
+
+/*=================Name and Photo====================*/
+/*=================Contact====================*/
+#contact .container {
+  padding: 20px 0;
+  background: #6a4250;
+}
+#contact .container .contact_item .phone a,
+#contact .container .contact_item .email a,
+#contact .container .contact_item .home a {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+  position: relative;
+  padding-left: 45px;
+}
+#contact .container .contact_item .phone a i,
+#contact .container .contact_item .email a i,
+#contact .container .contact_item .home a i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 30px;
+  padding-right: 10px;
+}
+#contact .container .contact_item .phone a {
+  padding-left: 30px;
+}
+#contact .container .contact_item .phone a i {
+  transform: translateY(-50%) rotate(-15deg);
+}
+
+/*=================Contact====================*/
+/*=================Details====================*/
+#details .details-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#details .details-row .details_left {
+  background: #c5c7c8;
+  padding: 30px 10px 20px 20px;
+}
+#details .details-row .details_left .details_title {
+  color: #6a4250;
+  font-size: 25px;
+  font-weight: 200;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #6a4250;
+  margin-top: 20px;
+}
+#details .details-row .details_right {
+  padding: 30px 10px 20px 20px;
+}
+#details .details-row .details_right .details_info {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Kanit", sans-serif;
+  word-spacing: 1px;
+  line-height: 34px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #000;
+}
+#details .academic_qualication .qualification_item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+#details .academic_qualication .qualification_item:first-child {
+  margin-top: 30px;
+}
+#details .academic_qualication .qualification_item:last-child {
+  border-bottom: 2px solid #000;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+#details .academic_qualication .qualification_item .floating_tag {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  padding: 0 15px;
+  background: #6a4250;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+}
+#details .academic_qualication .qualification_item .qualification_item_head {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+#details .academic_qualication .qualification_item .qualification_item_left li {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+  position: relative;
+}
+#details .academic_qualication .qualification_item .qualification_item_left li span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+#details .academic_qualication .qualification_item .qualification_item_right li {
+  padding-left: 30px;
+  text-align: left;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+}
+#details .special_qualification .qualifications {
+  border-bottom: 2px solid #000;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+#details .special_qualification .qualifications li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Kanit", sans-serif;
+  line-height: 30px;
+}
+#details .special_qualification .qualifications li i {
+  margin-right: 20px;
+  font-size: 15px;
+  opacity: 0.7;
+}
+#details .special_qualification .languages {
+  text-align: left;
+  border-bottom: 2px solid #000;
+  height: 100%;
+}
+#details .special_qualification .languages h6 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Kanit", sans-serif;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+#details .special_qualification .languages li {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+  line-height: 30px;
+}
+#details .special_qualification .languages li i {
+  margin-right: 10px;
+  font-size: 10px;
+  opacity: 0.7;
+}
+#details .special_qualification .languages li span {
+  font-size: 12px;
+}
+#details .training_courses {
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #000;
+}
+#details .training_courses ul li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+  line-height: 30px;
+}
+#details .training_courses ul li i {
+  margin-right: 10px;
+  font-size: 10px;
+  opacity: 0.7;
+}
+#details .training_courses ul li span {
+  font-size: 13px;
+}
+#details .personal_details_row {
+  border-bottom: 2px solid #000;
+  padding-bottom: 50px;
+}
+#details .personal_details_row .personal_details_left li,
+#details .personal_details_row .personal_details_right li {
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+  line-height: 40px;
+  position: relative;
+}
+#details .personal_details_row .personal_details_left li span,
+#details .personal_details_row .personal_details_right li span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+#details .personal_details_row .personal_details_left {
+  padding-left: 50px;
+}
+#details .link_row {
+  padding-bottom: 50px;
+}
+#details .link_row .link_left li,
+#details .link_row .link_right li {
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Kanit", sans-serif;
+  line-height: 40px;
+  position: relative;
+}
+#details .link_row .link_left li span,
+#details .link_row .link_right li span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+#details .link_row .link_left {
+  padding-left: 50px;
+}
+
+/*=================Details====================*//*# sourceMappingURL=style.css.map */

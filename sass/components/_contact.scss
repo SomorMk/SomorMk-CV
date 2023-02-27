@@ -1,0 +1,43 @@
+@import "../variables/variable";
+@import "../mixins/mixins";
+
+/*=================Contact====================*/
+#contact {
+    .container {
+        padding: 20px 0;
+        background: $c1;
+
+        .contact_item {
+
+            .phone,
+            .email,
+            .home {
+                a {
+                    @include fs(#fff, 22px, 500, $kanit);
+                    position: relative;
+                    padding-left: 45px;
+
+                    i {
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        color: #fff;
+                        font-size: 30px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+            .phone{
+                a{
+                    padding-left: 30px;
+                    i{
+                        transform: translateY(-50%) rotate(-15deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=================Contact====================*/

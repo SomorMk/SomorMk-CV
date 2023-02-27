@@ -1,0 +1,413 @@
+@media (max-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #contact .container .contact_item .phone a, #contact .container .contact_item .email a, #contact .container .contact_item .home a {
+        font-size: 17px;
+    }
+    #contact .container .contact_item .phone a i, #contact .container .contact_item .email a i, #contact .container .contact_item .home a i {
+        font-size: 20px;
+        padding-right: 0;
+    }
+    #contact .container .contact_item .phone a, #contact .container .contact_item .email a, #contact .container .contact_item .home a {
+        padding-left: 30px;
+    }
+    #title .name_and_photo {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #details .academic_qualication .qualification_item {
+        padding-right: 70px;
+    }
+    .mmd{
+        margin-top: 27px;
+    }
+    .mmdb{
+        margin-top: 52px;
+    }
+    #details .special_qualification .qualifications {
+        margin-top: 30px;
+        border-bottom: none;
+    }
+    #details .special_qualification .languages {
+        margin-top: 30px;
+        border-bottom: none;
+        padding-left: 100px;
+    }
+    #details .training_courses {
+        border-bottom: none;
+    }
+    #details .personal_details_row .personal_details_left li, #details .personal_details_row .personal_details_right li {
+        font-size: 20px;
+    }
+    #details .link_row .link_left li, #details .link_row .link_right li {
+        font-size: 20px;
+    }
+    #details .personal_details_row {
+        border-bottom: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #title .name_and_photo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #title .name_and_photo .row .name_part .name {
+        font-size: 28px;
+    }
+
+    #title .name_and_photo .row .name_part .description {
+        font-size: 14px;
+    }
+
+    #title .name_and_photo .row .photo img {
+        border: 5px solid rgb(106, 66, 80);
+    }
+
+    #contact .container .contact_item .phone a,
+    #contact .container .contact_item .email a,
+    #contact .container .contact_item .home a {
+        font-size: 13px;
+    }
+
+    #contact .container .contact_item .phone a i,
+    #contact .container .contact_item .email a i,
+    #contact .container .contact_item .home a i {
+        font-size: 15px;
+    }
+
+    #contact .container .contact_item .phone a {
+        padding-left: 15px;
+    }
+
+    #contact .container .contact_item .phone a,
+    #contact .container .contact_item .email a,
+    #contact .container .contact_item .home a {
+        padding-left: 25px;
+    }
+
+
+    #details .details-row .details_right {
+        padding-top: 15px;
+    }
+
+    #details .details-row .details_right .details_info {
+        font-size: 15px;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000;
+    }
+
+
+    #details .academic_qualication .qualification_item {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    #details .academic_qualication .qualification_item .qualification_item_head {
+        font-size: 18px;
+    }
+
+    #details .academic_qualication .qualification_item .floating_tag {
+        top: 0px;
+        left: 90%;
+        transform: translateX(-50%);
+        padding: 0 15px;
+        font-size: 13px;
+    }
+
+    #details .academic_qualication .qualification_item .qualification_item_left li {
+        font-size: 16px;
+    }
+
+    #details .academic_qualication .qualification_item .qualification_item_right li {
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+
+    #details .special_qualification .qualifications {
+        border-bottom: none;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    #details .special_qualification .qualifications li {
+        font-size: 16px;
+    }
+
+    #details .special_qualification .qualifications li i {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    #details .special_qualification .languages h6 {
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    #details .special_qualification .languages {
+        padding-bottom: 20px;
+    }
+
+    #details .special_qualification .languages li {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    #details .special_qualification .languages li span {
+        font-size: 10px;
+    }
+
+    #details .special_qualification .languages li i {
+        margin-right: 5px;
+        font-size: 6px;
+    }
+
+    .msm {
+        margin-top: 23px;
+    }
+
+
+    #details .training_courses {
+        padding-left: 20px;
+        padding-bottom: 30px;
+        border-bottom: none;
+    }
+
+    #details .training_courses ul li {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    #details .training_courses ul li span {
+        font-size: 10px;
+    }
+
+    #details .training_courses ul li i {
+        margin-right: 5px;
+        font-size: 8px;
+    }
+
+    #details .personal_details_row .personal_details_left {
+        padding-left: 0px;
+    }
+
+    #details .personal_details_row .personal_details_left li,
+    #details .personal_details_row .personal_details_right li {
+        font-size: 16px;
+    }
+
+    #details .personal_details_row {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+
+    #details .link_row .link_left {
+        padding-left: 0;
+    }
+
+    #details .link_row .link_left li,
+    #details .link_row .link_right li {
+        font-size: 16px;
+    }
+
+    #details .link_row {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #title .name_and_photo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #title .name_and_photo .row .name_part .name {
+        font-size: 24px;
+    }
+
+    #title .name_and_photo .row .name_part .description {
+        font-size: 14px;
+    }
+
+    #title .name_and_photo .row .photo img {
+        border: 5px solid rgb(106, 66, 80);
+    }
+
+    #contact .container .contact_item .phone a,
+    #contact .container .contact_item .email a,
+    #contact .container .contact_item .home a {
+        font-size: 12px;
+    }
+
+    #contact .container .contact_item .phone a i,
+    #contact .container .contact_item .email a i,
+    #contact .container .contact_item .home a i {
+        font-size: 15px;
+    }
+
+    #contact .container .contact_item .phone a {
+        padding-left: 15px;
+    }
+
+    #contact .container .contact_item .phone a,
+    #contact .container .contact_item .email a,
+    #contact .container .contact_item .home a {
+        padding-left: 25px;
+    }
+
+
+    #details .details-row .details_right {
+        padding-top: 15px;
+    }
+
+    #details .details-row .details_right .details_info {
+        font-size: 15px;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000;
+    }
+
+
+    #details .academic_qualication .qualification_item {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    #details .academic_qualication .qualification_item .qualification_item_head {
+        font-size: 16px;
+    }
+
+    #details .academic_qualication .qualification_item .floating_tag {
+        top: 0px;
+        left: 90%;
+        transform: translateX(-50%);
+        padding: 0 15px;
+        font-size: 13px;
+    }
+
+    #details .academic_qualication .qualification_item .qualification_item_left li {
+        font-size: 15px;
+    }
+
+    #details .academic_qualication .qualification_item .qualification_item_right li {
+        padding-left: 0;
+        font-size: 15px;
+    }
+
+    .m {
+        margin-top: 22px;
+    }
+
+    .mm {
+        margin-top: 45px;
+    }
+
+    .mtop {
+        top: -25px !important;
+    }
+
+
+    #details .special_qualification .qualifications {
+        border-bottom: 1px solid #000;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    #details .special_qualification .qualifications li {
+        font-size: 16px;
+    }
+
+    #details .special_qualification .qualifications li i {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    #details .special_qualification .languages h6 {
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    #details .special_qualification .languages {
+        padding-bottom: 20px;
+    }
+
+    #details .special_qualification .languages li {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    #details .special_qualification .languages li span {
+        font-size: 10px;
+    }
+
+    #details .special_qualification .languages li i {
+        margin-right: 5px;
+        font-size: 6px;
+    }
+
+
+    #details .training_courses {
+        padding-left: 20px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #000;
+    }
+
+    #details .training_courses ul li {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #details .training_courses ul li span {
+        font-size: 10px;
+    }
+
+    #details .training_courses ul li i {
+        margin-right: 5px;
+        font-size: 8px;
+    }
+
+    #details .personal_details_row .personal_details_left {
+        padding-left: 0px;
+    }
+
+    #details .personal_details_row .personal_details_left li,
+    #details .personal_details_row .personal_details_right li {
+        font-size: 15px;
+    }
+
+    #details .personal_details_row {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+
+    #details .link_row .link_left {
+        padding-left: 0;
+    }
+
+    #details .link_row .link_left li,
+    #details .link_row .link_right li {
+        font-size: 14px;
+    }
+
+    #details .link_row {
+        padding-bottom: 0px;
+    }
+}
